@@ -18,7 +18,7 @@ public class IndexModel : PageModel
     {
 
     }
-    public void OnPost(string Nombre)
+    public void OnPost(string nombre)
     {
         NombreUsuario = nombre;
     }
