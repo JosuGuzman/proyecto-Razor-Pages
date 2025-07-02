@@ -15,6 +15,9 @@
         <button type = "submit">I'a button, Click me!</button>
 </form>
 
+<form method="post" asp-page="/Logout">
+    <button type="submit">Cerrar sesión</button>
+</form>
 
 @if (!string.IsNullOrEmpty(Model.NombreUsuario)) {
     <p>¡Hola, @Model.NombreUsuario!</p>
